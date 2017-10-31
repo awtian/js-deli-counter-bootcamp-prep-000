@@ -15,7 +15,7 @@ else {
 function currentLine(x) {
   var y = [];
   if (x.length > 0) {
-    for (var i= 0 ; i < x.length + 1; i++) {
+    for (var i= 0 ; i < x.length; i++) {
       y.push (`${parseInt(i) + 1}. ${x[i]}`)
     }
     return y
