@@ -18,7 +18,7 @@ function currentLine(x) {
     for (var i= 0 ; i < x.length; i++) {
       y.push (`${parseInt(i) + 1}. ${x[i]}`)
     }
-    return y
+    return `The line is currently ${y}``
   }
   else{
     return "The line is currently empty."
