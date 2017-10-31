@@ -7,12 +7,16 @@ function takeANumber(array, name) {
 function nowServing(x) {
   if (x.length > 0) {
   return `Currently serving ${x.shift()}.`
-  x.shift()
 }
 else {
   return `There is nobody waiting to be served!`
 };
 };
-function currentLine() {
-
+function currentLine(x) {
+  if (x.length > 0) {
+    
+  }
+  else{
+    return "The line is currently empty."
+  }
 }
