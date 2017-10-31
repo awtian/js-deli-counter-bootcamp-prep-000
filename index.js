@@ -14,7 +14,7 @@ else {
 };
 function currentLine(x) {
   if (x.length > 0) {
-   var i = [0...x.length]
+   var i = [0, ...x.length]
   return `The line is currently: ${i + 1}. ${x[i]} `
   }
   else{
