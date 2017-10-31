@@ -1,5 +1,5 @@
 var katzDeli = [];
-function takeANumber(name) {
+function takeANumber(katzDeli, name) {
   return name
   katzDeli.push(name)
   return name
