@@ -4,10 +4,10 @@ function takeANumber(array, name) {
   return `Welcome, ${name}. You are number ${array.length} in line.`
 };
 
-function nowServing(array) {
+function nowServing(x) {
   if (x.length > 0) {
-  return `Currently serving ${array[0]}.`
-  array.shift()
+  return `Currently serving ${x[0]}.`
+  x.shift()
 }
 else {
   return `There is nobody waiting to be served!`
