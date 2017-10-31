@@ -11,7 +11,6 @@ function nowServing(x) {
 else {
   return `There is nobody waiting to be served!`
 };
-x.shift()
 };
 function currentLine() {
 
