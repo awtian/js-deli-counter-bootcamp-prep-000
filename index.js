@@ -15,7 +15,7 @@ else {
 function currentLine(x) {
   if (x.length > 0) {
     for (var i= 0 ; i == x.length; i++) {
-      return `${parseInt(i) + 1}. ${x[i]}`
+      return `The line is currently: ${parseInt(i) + 1}. ${x[i]}`
     }
   }
   else{
